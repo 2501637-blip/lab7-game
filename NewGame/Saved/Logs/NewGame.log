@@ -17377,3 +17377,287 @@ Sampler Limit: 32
 [2025.11.13-10.42.01:090][444]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
 [2025.11.13-10.42.01:099][444]LogFileHelpers: InternalPromptForCheckoutAndSave took 266.979 ms (total: 4.78 sec)
 [2025.11.13-10.42.07:537][775]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 4660.046387
+[2025.11.13-10.42.08:537][778]LogEOSSDK: Warning: LogHttp: 000006D928935400: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.11.13-10.42.08:537][778]LogEOSSDK: Warning: LogHttp: 000006D928935400: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2025.11.13-10.42.08:537][778]LogEOSSDK: Warning: LogHttp: 000006D928935400: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+[2025.11.13-10.42.08:537][778]LogEOSSDK: Warning: LogHttp: 000006D928935400: libcurl info message cache 1 (  Trying 34.237.148.19:443...)
+[2025.11.13-10.42.08:537][778]LogEOSSDK: Warning: LogHttp: 000006D928935400: libcurl info message cache 2 (Connected to api.epicgames.dev (34.237.148.19) port 443)
+[2025.11.13-10.42.08:537][778]LogEOSSDK: Warning: LogHttp: 000006D928935400: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2025.11.13-10.42.08:537][778]LogEOSSDK: Warning: LogHttp: 000006D928935400: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.11.13-10.42.08:537][778]LogEOSSDK: Warning: LogHttp: 000006D928935400: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.11.13-10.42.08:537][779]LogEOSSDK: Warning: LogHttp: 000006D928935400: libcurl info message cache 6 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.11.13-10.42.08:537][779]LogEOSSDK: Warning: LogHttp: 000006D928935400: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.11.13-10.42.08:537][779]LogEOSSDK: Warning: LogHttp: 000006D928935400: libcurl info message cache 8 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2025.11.13-10.42.08:537][779]LogEOSSDK: Warning: LogHttp: 000006D928935400: libcurl info message cache 9 (SSL certificate problem: unable to get local issuer certificate)
+[2025.11.13-10.42.08:537][779]LogEOSSDK: Warning: LogHttp: 000006D928935400: libcurl info message cache 10 (Closing connection)
+[2025.11.13-10.42.08:537][779]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2025.11.13-10.42.08:537][779]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2025.11.13-10.42.08:873][779]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 2.235115 seconds
+[2025.11.13-10.42.10:873][785]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 4663.382324
+[2025.11.13-10.42.11:870][788]LogEOSSDK: Warning: LogHttp: 000006D928934800: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.11.13-10.42.11:870][788]LogEOSSDK: Warning: LogHttp: 000006D928934800: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2025.11.13-10.42.11:870][788]LogEOSSDK: Warning: LogHttp: 000006D928934800: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+[2025.11.13-10.42.11:870][788]LogEOSSDK: Warning: LogHttp: 000006D928934800: libcurl info message cache 1 (  Trying 34.237.148.19:443...)
+[2025.11.13-10.42.11:870][788]LogEOSSDK: Warning: LogHttp: 000006D928934800: libcurl info message cache 2 (Connected to api.epicgames.dev (34.237.148.19) port 443)
+[2025.11.13-10.42.11:870][788]LogEOSSDK: Warning: LogHttp: 000006D928934800: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2025.11.13-10.42.11:870][788]LogEOSSDK: Warning: LogHttp: 000006D928934800: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.11.13-10.42.11:870][788]LogEOSSDK: Warning: LogHttp: 000006D928934800: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.11.13-10.42.11:870][788]LogEOSSDK: Warning: LogHttp: 000006D928934800: libcurl info message cache 6 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.11.13-10.42.11:870][788]LogEOSSDK: Warning: LogHttp: 000006D928934800: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.11.13-10.42.11:870][788]LogEOSSDK: Warning: LogHttp: 000006D928934800: libcurl info message cache 8 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2025.11.13-10.42.11:870][789]LogEOSSDK: Warning: LogHttp: 000006D928934800: libcurl info message cache 9 (SSL certificate problem: unable to get local issuer certificate)
+[2025.11.13-10.42.11:870][789]LogEOSSDK: Warning: LogHttp: 000006D928934800: libcurl info message cache 10 (Closing connection)
+[2025.11.13-10.42.11:870][789]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2025.11.13-10.42.11:870][789]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2025.11.13-10.42.12:204][789]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 4.726951 seconds
+[2025.11.13-10.42.16:873][803]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 4669.382324
+[2025.11.13-10.42.17:872][806]LogEOSSDK: Warning: LogHttp: 000006D92893EA00: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.11.13-10.42.17:872][806]LogEOSSDK: Warning: LogHttp: 000006D92893EA00: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2025.11.13-10.42.17:872][806]LogEOSSDK: Warning: LogHttp: 000006D92893EA00: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+[2025.11.13-10.42.17:872][806]LogEOSSDK: Warning: LogHttp: 000006D92893EA00: libcurl info message cache 1 (  Trying 34.237.148.19:443...)
+[2025.11.13-10.42.17:872][806]LogEOSSDK: Warning: LogHttp: 000006D92893EA00: libcurl info message cache 2 (Connected to api.epicgames.dev (34.237.148.19) port 443)
+[2025.11.13-10.42.17:872][806]LogEOSSDK: Warning: LogHttp: 000006D92893EA00: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2025.11.13-10.42.17:872][807]LogEOSSDK: Warning: LogHttp: 000006D92893EA00: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.11.13-10.42.17:872][807]LogEOSSDK: Warning: LogHttp: 000006D92893EA00: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.11.13-10.42.17:872][807]LogEOSSDK: Warning: LogHttp: 000006D92893EA00: libcurl info message cache 6 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.11.13-10.42.17:872][807]LogEOSSDK: Warning: LogHttp: 000006D92893EA00: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.11.13-10.42.17:872][807]LogEOSSDK: Warning: LogHttp: 000006D92893EA00: libcurl info message cache 8 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2025.11.13-10.42.17:872][807]LogEOSSDK: Warning: LogHttp: 000006D92893EA00: libcurl info message cache 9 (SSL certificate problem: unable to get local issuer certificate)
+[2025.11.13-10.42.17:873][807]LogEOSSDK: Warning: LogHttp: 000006D92893EA00: libcurl info message cache 10 (Closing connection)
+[2025.11.13-10.42.17:873][807]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2025.11.13-10.42.17:873][807]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2025.11.13-10.42.18:205][807]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 9.901914 seconds
+[2025.11.13-10.42.21:760][822]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.11.13-10.42.26:129][822]LogSlate: Window 'Save Content' being destroyed
+[2025.11.13-10.42.27:224][897]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.11.13-10.42.28:860][897]LogSlate: Window 'Save Content' being destroyed
+[2025.11.13-10.42.28:874][897]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.13-10.42.29:105][897]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.11.13-10.42.29:132][897]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.11.13-10.42.29:154][897]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.11.13-10.42.29:156][897]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/brick_wall_001_1k/brick_wall_001] ([1] browsable assets)...
+[2025.11.13-10.42.29:156][897]OBJ SavePackage: Finished generating thumbnails for package [/Game/brick_wall_001_1k/brick_wall_001]
+[2025.11.13-10.42.29:156][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/brick_wall_001_1k/brick_wall_001" FILE="C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/brick_wall_001_1k/brick_wall_001.uasset" SILENT=true
+[2025.11.13-10.42.29:159][897]LogSavePackage: Moving output files for package: /Game/brick_wall_001_1k/brick_wall_001
+[2025.11.13-10.42.29:159][897]LogSavePackage: Moving 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Saved/brick_wall_001CE7D63E24777F33065A096A4DEAB07EE.tmp' to 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/brick_wall_001_1k/brick_wall_001.uasset'
+[2025.11.13-10.42.29:161][897]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/brick_wall_001_1k/brick_wall_001_1k] ([1] browsable assets)...
+[2025.11.13-10.42.29:161][897]OBJ SavePackage: Finished generating thumbnails for package [/Game/brick_wall_001_1k/brick_wall_001_1k]
+[2025.11.13-10.42.29:161][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/brick_wall_001_1k/brick_wall_001_1k" FILE="C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/brick_wall_001_1k/brick_wall_001_1k.uasset" SILENT=true
+[2025.11.13-10.42.29:201][897]LogSavePackage: Moving output files for package: /Game/brick_wall_001_1k/brick_wall_001_1k
+[2025.11.13-10.42.29:202][897]LogSavePackage: Moving 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Saved/brick_wall_001_1k5537604E486E51A56C14D2A2D8896517.tmp' to 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/brick_wall_001_1k/brick_wall_001_1k.uasset'
+[2025.11.13-10.42.29:204][897]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/brick_wall_001_1k/textures/brick_wall_001_ao_1k] ([1] browsable assets)...
+[2025.11.13-10.42.29:207][897]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/brick_wall_001_1k/textures/brick_wall_001_ao_1k.brick_wall_001_ao_1k]
+[2025.11.13-10.42.29:207][897]OBJ SavePackage: Finished generating thumbnails for package [/Game/brick_wall_001_1k/textures/brick_wall_001_ao_1k]
+[2025.11.13-10.42.29:208][897]LogSavePackage: Moving output files for package: /Game/brick_wall_001_1k/textures/brick_wall_001_ao_1k
+[2025.11.13-10.42.29:210][897]LogSavePackage: Moving 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Saved/brick_wall_001_ao_1kF86AF00F46B0060C49C873A3A5733FF7.tmp' to 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/brick_wall_001_1k/textures/brick_wall_001_ao_1k.uasset'
+[2025.11.13-10.42.29:216][897]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/brick_wall_001_1k/textures/brick_wall_001_arm_1k] ([1] browsable assets)...
+[2025.11.13-10.42.29:218][897]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/brick_wall_001_1k/textures/brick_wall_001_arm_1k.brick_wall_001_arm_1k]
+[2025.11.13-10.42.29:218][897]OBJ SavePackage: Finished generating thumbnails for package [/Game/brick_wall_001_1k/textures/brick_wall_001_arm_1k]
+[2025.11.13-10.42.29:220][897]LogSavePackage: Moving output files for package: /Game/brick_wall_001_1k/textures/brick_wall_001_arm_1k
+[2025.11.13-10.42.29:220][897]LogSavePackage: Moving 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Saved/brick_wall_001_arm_1kCCA741024B978A5AD4E6B1B898BFBF08.tmp' to 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/brick_wall_001_1k/textures/brick_wall_001_arm_1k.uasset'
+[2025.11.13-10.42.29:222][897]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/brick_wall_001_1k/textures/brick_wall_001_diffuse_1k] ([1] browsable assets)...
+[2025.11.13-10.42.29:225][897]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/brick_wall_001_1k/textures/brick_wall_001_diffuse_1k.brick_wall_001_diffuse_1k]
+[2025.11.13-10.42.29:225][897]OBJ SavePackage: Finished generating thumbnails for package [/Game/brick_wall_001_1k/textures/brick_wall_001_diffuse_1k]
+[2025.11.13-10.42.29:227][897]LogSavePackage: Moving output files for package: /Game/brick_wall_001_1k/textures/brick_wall_001_diffuse_1k
+[2025.11.13-10.42.29:227][897]LogSavePackage: Moving 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Saved/brick_wall_001_diffuse_1k0E215B3448A1868A9D7E48A17BE473F4.tmp' to 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/brick_wall_001_1k/textures/brick_wall_001_diffuse_1k.uasset'
+[2025.11.13-10.42.29:228][897]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/brick_wall_001_1k/textures/brick_wall_001_diffuse_1k_Mat] ([1] browsable assets)...
+[2025.11.13-10.42.29:372][897]OBJ SavePackage:     Rendered thumbnail for [Material /Game/brick_wall_001_1k/textures/brick_wall_001_diffuse_1k_Mat.brick_wall_001_diffuse_1k_Mat]
+[2025.11.13-10.42.29:373][897]OBJ SavePackage: Finished generating thumbnails for package [/Game/brick_wall_001_1k/textures/brick_wall_001_diffuse_1k_Mat]
+[2025.11.13-10.42.29:384][897]LogSavePackage: Moving output files for package: /Game/brick_wall_001_1k/textures/brick_wall_001_diffuse_1k_Mat
+[2025.11.13-10.42.29:384][897]LogSavePackage: Moving 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Saved/brick_wall_001_diffuse_1k_MatD6038F614D8C0D872F30DF85538873D9.tmp' to 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/brick_wall_001_1k/textures/brick_wall_001_diffuse_1k_Mat.uasset'
+[2025.11.13-10.42.29:388][897]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/brick_wall_001_1k/brick_wall_001_diffuse_4k] ([1] browsable assets)...
+[2025.11.13-10.42.29:388][897]OBJ SavePackage: Finished generating thumbnails for package [/Game/brick_wall_001_1k/brick_wall_001_diffuse_4k]
+[2025.11.13-10.42.29:448][897]LogSavePackage: Moving output files for package: /Game/brick_wall_001_1k/brick_wall_001_diffuse_4k
+[2025.11.13-10.42.29:448][897]LogSavePackage: Moving 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Saved/brick_wall_001_diffuse_4kB77AF4E547B834CB35889CBE3A337CDD.tmp' to 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/brick_wall_001_1k/brick_wall_001_diffuse_4k.uasset'
+[2025.11.13-10.42.29:450][897]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/brick_wall_001_1k/brick_wall_001_diffuse_4k_Mat] ([1] browsable assets)...
+[2025.11.13-10.42.29:450][897]OBJ SavePackage: Finished generating thumbnails for package [/Game/brick_wall_001_1k/brick_wall_001_diffuse_4k_Mat]
+[2025.11.13-10.42.29:452][897]LogSavePackage: Moving output files for package: /Game/brick_wall_001_1k/brick_wall_001_diffuse_4k_Mat
+[2025.11.13-10.42.29:452][897]LogSavePackage: Moving 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Saved/brick_wall_001_diffuse_4k_Mat426481A5454E011284CD2AB91F4A1EB7.tmp' to 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/brick_wall_001_1k/brick_wall_001_diffuse_4k_Mat.uasset'
+[2025.11.13-10.42.29:454][897]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/brick_wall_001_1k/textures/brick_wall_001_displacement_1k] ([1] browsable assets)...
+[2025.11.13-10.42.29:456][897]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/brick_wall_001_1k/textures/brick_wall_001_displacement_1k.brick_wall_001_displacement_1k]
+[2025.11.13-10.42.29:456][897]OBJ SavePackage: Finished generating thumbnails for package [/Game/brick_wall_001_1k/textures/brick_wall_001_displacement_1k]
+[2025.11.13-10.42.29:486][897]LogSavePackage: Moving output files for package: /Game/brick_wall_001_1k/textures/brick_wall_001_displacement_1k
+[2025.11.13-10.42.29:486][897]LogSavePackage: Moving 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Saved/brick_wall_001_displacement_1k4C4CBDE74AB45DBDE73D2783B4E5BCC8.tmp' to 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/brick_wall_001_1k/textures/brick_wall_001_displacement_1k.uasset'
+[2025.11.13-10.42.29:488][897]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/brick_wall_001_1k/textures/brick_wall_001_nor_gl_1k] ([1] browsable assets)...
+[2025.11.13-10.42.29:491][897]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/brick_wall_001_1k/textures/brick_wall_001_nor_gl_1k.brick_wall_001_nor_gl_1k]
+[2025.11.13-10.42.29:491][897]OBJ SavePackage: Finished generating thumbnails for package [/Game/brick_wall_001_1k/textures/brick_wall_001_nor_gl_1k]
+[2025.11.13-10.42.29:528][897]LogSavePackage: Moving output files for package: /Game/brick_wall_001_1k/textures/brick_wall_001_nor_gl_1k
+[2025.11.13-10.42.29:528][897]LogSavePackage: Moving 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Saved/brick_wall_001_nor_gl_1k3A996650438B3F7704E1B7ACF3350885.tmp' to 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/brick_wall_001_1k/textures/brick_wall_001_nor_gl_1k.uasset'
+[2025.11.13-10.42.29:530][897]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/brick_wall_001_1k/textures/brick_wall_001_rough_1k] ([1] browsable assets)...
+[2025.11.13-10.42.29:533][897]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/brick_wall_001_1k/textures/brick_wall_001_rough_1k.brick_wall_001_rough_1k]
+[2025.11.13-10.42.29:533][897]OBJ SavePackage: Finished generating thumbnails for package [/Game/brick_wall_001_1k/textures/brick_wall_001_rough_1k]
+[2025.11.13-10.42.29:541][897]LogSavePackage: Moving output files for package: /Game/brick_wall_001_1k/textures/brick_wall_001_rough_1k
+[2025.11.13-10.42.29:541][897]LogSavePackage: Moving 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Saved/brick_wall_001_rough_1kBBA4F4FC4C8F403043B6759724DF83AB.tmp' to 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/brick_wall_001_1k/textures/brick_wall_001_rough_1k.uasset'
+[2025.11.13-10.42.29:543][897]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/move] ([1] browsable assets)...
+[2025.11.13-10.42.29:543][897]OBJ SavePackage: Finished generating thumbnails for package [/Game/move]
+[2025.11.13-10.42.29:543][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/move" FILE="C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/move.uasset" SILENT=true
+[2025.11.13-10.42.29:545][897]LogSavePackage: Moving output files for package: /Game/move
+[2025.11.13-10.42.29:545][897]LogSavePackage: Moving 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Saved/move7C4EDE324FD7B07697367EBA4CAF7DB8.tmp' to 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/move.uasset'
+[2025.11.13-10.42.29:547][897]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/mud_forest_1k/mud_forest] ([1] browsable assets)...
+[2025.11.13-10.42.29:547][897]OBJ SavePackage: Finished generating thumbnails for package [/Game/mud_forest_1k/mud_forest]
+[2025.11.13-10.42.29:547][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mud_forest_1k/mud_forest" FILE="C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/mud_forest_1k/mud_forest.uasset" SILENT=true
+[2025.11.13-10.42.29:550][897]LogSavePackage: Moving output files for package: /Game/mud_forest_1k/mud_forest
+[2025.11.13-10.42.29:550][897]LogSavePackage: Moving 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Saved/mud_forest206FFB6F42FB42834820E29301BBB44C.tmp' to 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/mud_forest_1k/mud_forest.uasset'
+[2025.11.13-10.42.29:552][897]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/mud_forest_1k/mud_forest_1k] ([1] browsable assets)...
+[2025.11.13-10.42.29:552][897]OBJ SavePackage: Finished generating thumbnails for package [/Game/mud_forest_1k/mud_forest_1k]
+[2025.11.13-10.42.29:552][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mud_forest_1k/mud_forest_1k" FILE="C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/mud_forest_1k/mud_forest_1k.uasset" SILENT=true
+[2025.11.13-10.42.29:592][897]LogSavePackage: Moving output files for package: /Game/mud_forest_1k/mud_forest_1k
+[2025.11.13-10.42.29:592][897]LogSavePackage: Moving 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Saved/mud_forest_1k85901A2747A190E563DD7CB9B0778F91.tmp' to 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/mud_forest_1k/mud_forest_1k.uasset'
+[2025.11.13-10.42.29:594][897]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/mud_forest_1k/textures/mud_forest_ao_1k] ([1] browsable assets)...
+[2025.11.13-10.42.29:594][897]OBJ SavePackage: Finished generating thumbnails for package [/Game/mud_forest_1k/textures/mud_forest_ao_1k]
+[2025.11.13-10.42.29:594][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mud_forest_1k/textures/mud_forest_ao_1k" FILE="C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/mud_forest_1k/textures/mud_forest_ao_1k.uasset" SILENT=true
+[2025.11.13-10.42.29:596][897]LogSavePackage: Moving output files for package: /Game/mud_forest_1k/textures/mud_forest_ao_1k
+[2025.11.13-10.42.29:596][897]LogSavePackage: Moving 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Saved/mud_forest_ao_1kB62C2E084A99AF7D7EAB9B8DBA659BF6.tmp' to 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/mud_forest_1k/textures/mud_forest_ao_1k.uasset'
+[2025.11.13-10.42.29:598][897]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/mud_forest_1k/textures/mud_forest_arm_1k] ([1] browsable assets)...
+[2025.11.13-10.42.29:598][897]OBJ SavePackage: Finished generating thumbnails for package [/Game/mud_forest_1k/textures/mud_forest_arm_1k]
+[2025.11.13-10.42.29:598][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mud_forest_1k/textures/mud_forest_arm_1k" FILE="C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/mud_forest_1k/textures/mud_forest_arm_1k.uasset" SILENT=true
+[2025.11.13-10.42.29:599][897]LogSavePackage: Moving output files for package: /Game/mud_forest_1k/textures/mud_forest_arm_1k
+[2025.11.13-10.42.29:599][897]LogSavePackage: Moving 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Saved/mud_forest_arm_1kFFE1F84D4FB93C48E59334BE241D0A58.tmp' to 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/mud_forest_1k/textures/mud_forest_arm_1k.uasset'
+[2025.11.13-10.42.29:602][897]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/mud_forest_1k/mud_forest_diff] ([1] browsable assets)...
+[2025.11.13-10.42.29:602][897]OBJ SavePackage: Finished generating thumbnails for package [/Game/mud_forest_1k/mud_forest_diff]
+[2025.11.13-10.42.29:602][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mud_forest_1k/mud_forest_diff" FILE="C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/mud_forest_1k/mud_forest_diff.uasset" SILENT=true
+[2025.11.13-10.42.29:624][897]LogSavePackage: Moving output files for package: /Game/mud_forest_1k/mud_forest_diff
+[2025.11.13-10.42.29:624][897]LogSavePackage: Moving 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Saved/mud_forest_diff9C9556444F850EC6EAF67EBA7FDB671D.tmp' to 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/mud_forest_1k/mud_forest_diff.uasset'
+[2025.11.13-10.42.29:626][897]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/mud_forest_1k/textures/mud_forest_diff_1k] ([1] browsable assets)...
+[2025.11.13-10.42.29:626][897]OBJ SavePackage: Finished generating thumbnails for package [/Game/mud_forest_1k/textures/mud_forest_diff_1k]
+[2025.11.13-10.42.29:628][897]LogSavePackage: Moving output files for package: /Game/mud_forest_1k/textures/mud_forest_diff_1k
+[2025.11.13-10.42.29:628][897]LogSavePackage: Moving 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Saved/mud_forest_diff_1kF2D58B4747A14E325B23BE8F2D6D28CF.tmp' to 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/mud_forest_1k/textures/mud_forest_diff_1k.uasset'
+[2025.11.13-10.42.29:631][897]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/mud_forest_1k/textures/mud_forest_disp_1k] ([1] browsable assets)...
+[2025.11.13-10.42.29:631][897]OBJ SavePackage: Finished generating thumbnails for package [/Game/mud_forest_1k/textures/mud_forest_disp_1k]
+[2025.11.13-10.42.29:660][897]LogSavePackage: Moving output files for package: /Game/mud_forest_1k/textures/mud_forest_disp_1k
+[2025.11.13-10.42.29:660][897]LogSavePackage: Moving 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Saved/mud_forest_disp_1k2F471EE646233BD5E720F39F4559481E.tmp' to 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/mud_forest_1k/textures/mud_forest_disp_1k.uasset'
+[2025.11.13-10.42.29:662][897]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/mud_forest_1k/mud_forest_Mat] ([1] browsable assets)...
+[2025.11.13-10.42.29:662][897]OBJ SavePackage: Finished generating thumbnails for package [/Game/mud_forest_1k/mud_forest_Mat]
+[2025.11.13-10.42.29:662][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mud_forest_1k/mud_forest_Mat" FILE="C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/mud_forest_1k/mud_forest_Mat.uasset" SILENT=true
+[2025.11.13-10.42.29:665][897]LogSavePackage: Moving output files for package: /Game/mud_forest_1k/mud_forest_Mat
+[2025.11.13-10.42.29:665][897]LogSavePackage: Moving 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Saved/mud_forest_MatDB32552C467DBC093D2FBBBF0029D60B.tmp' to 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/mud_forest_1k/mud_forest_Mat.uasset'
+[2025.11.13-10.42.29:666][897]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/mud_forest_1k/textures/mud_forest_nor_gl_1k] ([1] browsable assets)...
+[2025.11.13-10.42.29:666][897]OBJ SavePackage: Finished generating thumbnails for package [/Game/mud_forest_1k/textures/mud_forest_nor_gl_1k]
+[2025.11.13-10.42.29:703][897]LogSavePackage: Moving output files for package: /Game/mud_forest_1k/textures/mud_forest_nor_gl_1k
+[2025.11.13-10.42.29:703][897]LogSavePackage: Moving 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Saved/mud_forest_nor_gl_1kA01CAB2845462ED069433FBC15047806.tmp' to 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/mud_forest_1k/textures/mud_forest_nor_gl_1k.uasset'
+[2025.11.13-10.42.29:705][897]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/mud_forest_1k/mud_forest_rough] ([1] browsable assets)...
+[2025.11.13-10.42.29:705][897]OBJ SavePackage: Finished generating thumbnails for package [/Game/mud_forest_1k/mud_forest_rough]
+[2025.11.13-10.42.29:705][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mud_forest_1k/mud_forest_rough" FILE="C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/mud_forest_1k/mud_forest_rough.uasset" SILENT=true
+[2025.11.13-10.42.29:728][897]LogSavePackage: Moving output files for package: /Game/mud_forest_1k/mud_forest_rough
+[2025.11.13-10.42.29:728][897]LogSavePackage: Moving 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Saved/mud_forest_roughBB909B01430ED94AEF73A497BF955815.tmp' to 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/mud_forest_1k/mud_forest_rough.uasset'
+[2025.11.13-10.42.29:731][897]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/mud_forest_1k/textures/mud_forest_rough_1k] ([1] browsable assets)...
+[2025.11.13-10.42.29:731][897]OBJ SavePackage: Finished generating thumbnails for package [/Game/mud_forest_1k/textures/mud_forest_rough_1k]
+[2025.11.13-10.42.29:745][897]LogSavePackage: Moving output files for package: /Game/mud_forest_1k/textures/mud_forest_rough_1k
+[2025.11.13-10.42.29:745][897]LogSavePackage: Moving 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Saved/mud_forest_rough_1kE3E5C362467F22E8B8A466AC21B25960.tmp' to 'C:/Users/2501637/Documents/GitHub/lab7-game/NewGame/Content/mud_forest_1k/textures/mud_forest_rough_1k.uasset'
+[2025.11.13-10.42.29:764][897]LogFileHelpers: InternalPromptForCheckoutAndSave took 889.446 ms (total: 5.67 sec)
+[2025.11.13-10.42.29:814][897]LogStall: Shutdown...
+[2025.11.13-10.42.29:828][897]LogStall: Shutdown complete.
+[2025.11.13-10.42.29:888][897]LogSlate: Window 'NewGame - Unreal Editor' being destroyed
+[2025.11.13-10.42.29:892][897]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2025.11.13-10.42.30:242][897]LogContentValidation: Display: Starting to validate 23 assets
+[2025.11.13-10.42.30:242][897]LogContentValidation: Enabled validators:
+[2025.11.13-10.42.30:242][897]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.13-10.42.30:242][897]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.13-10.42.30:242][897]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.13-10.42.30:242][897]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.13-10.42.30:242][897]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.13-10.42.30:242][897]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.13-10.42.30:242][897]AssetCheck: /Game/brick_wall_001_1k/brick_wall_001 Validating asset
+[2025.11.13-10.42.30:242][897]AssetCheck: /Game/brick_wall_001_1k/brick_wall_001_1k Validating asset
+[2025.11.13-10.42.30:242][897]AssetCheck: /Game/brick_wall_001_1k/textures/brick_wall_001_ao_1k Validating asset
+[2025.11.13-10.42.30:243][897]AssetCheck: /Game/brick_wall_001_1k/textures/brick_wall_001_arm_1k Validating asset
+[2025.11.13-10.42.30:243][897]AssetCheck: /Game/brick_wall_001_1k/textures/brick_wall_001_diffuse_1k Validating asset
+[2025.11.13-10.42.30:243][897]AssetCheck: /Game/brick_wall_001_1k/textures/brick_wall_001_diffuse_1k_Mat Validating asset
+[2025.11.13-10.42.30:243][897]AssetCheck: /Game/brick_wall_001_1k/brick_wall_001_diffuse_4k Validating asset
+[2025.11.13-10.42.30:243][897]AssetCheck: /Game/brick_wall_001_1k/brick_wall_001_diffuse_4k_Mat Validating asset
+[2025.11.13-10.42.30:243][897]AssetCheck: /Game/brick_wall_001_1k/textures/brick_wall_001_displacement_1k Validating asset
+[2025.11.13-10.42.30:243][897]AssetCheck: /Game/brick_wall_001_1k/textures/brick_wall_001_nor_gl_1k Validating asset
+[2025.11.13-10.42.30:243][897]AssetCheck: /Game/brick_wall_001_1k/textures/brick_wall_001_rough_1k Validating asset
+[2025.11.13-10.42.30:243][897]AssetCheck: /Game/move Validating asset
+[2025.11.13-10.42.30:243][897]AssetCheck: /Game/mud_forest_1k/mud_forest Validating asset
+[2025.11.13-10.42.30:244][897]AssetCheck: /Game/mud_forest_1k/mud_forest_1k Validating asset
+[2025.11.13-10.42.30:244][897]AssetCheck: /Game/mud_forest_1k/textures/mud_forest_ao_1k Validating asset
+[2025.11.13-10.42.30:244][897]AssetCheck: /Game/mud_forest_1k/textures/mud_forest_arm_1k Validating asset
+[2025.11.13-10.42.30:244][897]AssetCheck: /Game/mud_forest_1k/mud_forest_diff Validating asset
+[2025.11.13-10.42.30:244][897]AssetCheck: /Game/mud_forest_1k/textures/mud_forest_diff_1k Validating asset
+[2025.11.13-10.42.30:244][897]AssetCheck: /Game/mud_forest_1k/textures/mud_forest_disp_1k Validating asset
+[2025.11.13-10.42.30:244][897]AssetCheck: /Game/mud_forest_1k/mud_forest_Mat Validating asset
+[2025.11.13-10.42.30:244][897]AssetCheck: /Game/mud_forest_1k/textures/mud_forest_nor_gl_1k Validating asset
+[2025.11.13-10.42.30:244][897]AssetCheck: /Game/mud_forest_1k/mud_forest_rough Validating asset
+[2025.11.13-10.42.30:244][897]AssetCheck: /Game/mud_forest_1k/textures/mud_forest_rough_1k Validating asset
+[2025.11.13-10.42.30:247][897]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 4682.756348
+[2025.11.13-10.42.30:249][897]Cmd: QUIT_EDITOR
+[2025.11.13-10.42.30:249][897]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.11.13-10.42.30:333][898]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.11.13-10.42.30:333][898]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.11.13-10.42.30:341][898]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.11.13-10.42.30:392][898]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.11.13-10.42.30:402][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-10.42.30:402][898]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2025.11.13-10.42.30:797][898]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.11.13-10.42.30:950][898]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.11.13-10.42.31:141][898]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2025.11.13-10.42.31:142][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-10.42.31:145][898]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2025.11.13-10.42.31:145][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-10.42.31:148][898]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.11.13-10.42.31:148][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-10.42.31:150][898]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.11.13-10.42.31:150][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-10.42.31:153][898]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.11.13-10.42.31:153][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-10.42.31:156][898]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.11.13-10.42.31:156][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-10.42.31:159][898]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.11.13-10.42.31:159][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-10.42.31:163][898]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.11.13-10.42.31:163][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-10.42.31:166][898]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.11.13-10.42.31:166][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-10.42.31:168][898]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.11.13-10.42.31:168][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-10.42.31:173][898]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.11.13-10.42.31:173][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-10.42.31:176][898]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.11.13-10.42.31:176][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-10.42.31:179][898]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.11.13-10.42.31:179][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-10.42.31:181][898]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.11.13-10.42.31:181][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-10.42.31:203][898]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2025.11.13-10.42.31:203][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-10.42.31:207][898]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2025.11.13-10.42.31:207][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-10.42.31:361][898]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.11.13-10.42.31:439][898]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.11.13-10.42.31:439][898]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.11.13-10.42.31:439][898]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.11.13-10.42.31:904][898]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.11.13-10.42.31:904][898]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.11.13-10.42.31:904][898]LogAudio: Display: Audio Device unregistered from world 'FirstPersonMap'.
+[2025.11.13-10.42.31:908][898]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.11.13-10.42.31:908][898]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.11.13-10.42.31:918][898]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.11.13-10.42.31:965][898]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.11.13-10.42.31:965][898]LogAudio: Display: Audio Device Manager Shutdown
+[2025.11.13-10.42.32:034][898]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.11.13-10.42.32:045][898]LogExit: Preparing to exit.
+[2025.11.13-10.42.32:852][898]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2025.11.13-10.42.32:864][898]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.13-10.42.32:883][898]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.13-10.42.32:905][898]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.13-10.42.32:909][898]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.13-10.42.32:909][898]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.13-10.42.32:909][898]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.13-10.42.32:909][898]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.13-10.42.32:909][898]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.13-10.42.32:909][898]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.13-10.42.32:909][898]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.13-10.42.32:909][898]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.13-10.42.32:909][898]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.13-10.42.32:911][898]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.13-10.42.32:911][898]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.13-10.42.32:911][898]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.13-10.42.32:911][898]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.13-10.42.32:911][898]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.13-10.42.32:911][898]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.13-10.42.32:911][898]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.13-10.42.32:911][898]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.13-10.42.32:911][898]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.13-10.42.33:788][898]LogEditorDataStorage: Deinitializing
+[2025.11.13-10.42.37:516][898]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
