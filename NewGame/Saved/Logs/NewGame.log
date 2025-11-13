@@ -17661,3 +17661,5 @@ Sampler Limit: 32
 [2025.11.13-10.42.32:911][898]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
 [2025.11.13-10.42.33:788][898]LogEditorDataStorage: Deinitializing
 [2025.11.13-10.42.37:516][898]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.11.13-10.42.38:512][898]LogExit: Editor shut down
+[2025.11.13-10.42.38:535][898]LogExit: Transaction tracking system shut down
